@@ -17,7 +17,7 @@ function PhishingAnalyzer() {
         setResult('');
       
         try {
-          const response = await fetch('https://api.evolveafricainitiative.org/analyze', {
+          const response = await fetch('https://feedback.sekimbi.com/analyze', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
